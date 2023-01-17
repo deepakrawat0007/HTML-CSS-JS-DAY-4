@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    background-color: rgb(49, 45, 45);
+}
+.wrapper{
+padding: 30px;
+}
+div>h1{
+    font-size: 50px;
+    color: white;
+
+}
+div > h3{
+    margin-bottom: 5px;
+}
+div > input{
+    text-align: center;
+    font-size: 15px;
+width: 28vw;
+border-radius: 10px;
+height: 5vh;
+}
+.gram , .kilogram , .ounce{
+    color: whitesmoke;
+    font-size: 20px;
+    margin: 5px;
+
+}
+.gram , .kilogram , .ounce{
+    background-color:rgb(67, 67, 206);
+    width: 28vw;
+    height: 15vh;
+    border-radius: 15px;
+}
+
+div > h3, div > span{
+    margin-left: 10px;
+}
+div > h3{
+    margin-top: 20px;
+}
+div > span {
+    margin-bottom: 10px;
+}
+.kilogram{
+background-color: green;
+}
+.ounce{
+    background-color: orangered;
+}
